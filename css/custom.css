@@ -1,11 +1,17 @@
-body{
- background : rgba(228,241,255,1);
+@font-face {
+  font-family: logoFont;
+  src: url(../font/Mandalika.otf);
 }
 
 #logo{
   font-family :logoFont;
 }
 
+
+body{
+ background : rgba(228,241,255,1);
+
+}
 
 .icon-list {
     padding-left: 0;
@@ -32,6 +38,7 @@ body{
 h1, h2, h3, h4, h5, h6 {
     color: rgb(0,0,250); 
     font-family: Arial, Helvetica, sans-serif;
+
 }
 #title {
     text-decoration:underline ; 
@@ -73,3 +80,15 @@ h1, h2, h3, h4, h5, h6 {
 .slideImg{
     height: 550px;
 }
+
+.card-img-top{
+    height: 340px;
+    width: 355px;
+
+}
+
+.card{
+   width: 110%; 
+   height: 100%;
+}
+
